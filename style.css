@@ -5,7 +5,7 @@ body {
     font-family: arial;
 }
 #all-contents {
-  max-width: 800px;
+  max-width: 3000px;
     margin: auto;
 }
 
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(255, 191, 16);
+    background: rgb(255, 238, 0);
     display: flex;
 }
 .sidebar {
@@ -46,7 +46,7 @@ main {
     padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+    width: 400px;
 }
 .content {
     flex: 1;
@@ -61,3 +61,28 @@ main {
 h2, h3 {
     margin: 0px;
 }
+         /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
