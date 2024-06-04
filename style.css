@@ -47,6 +47,7 @@ main {
 }
 .sidebar-img {
     width: 400px;
+    border-radius: 100%;
 }
 .content {
     flex: 1;
@@ -60,6 +61,10 @@ main {
 }
 h2, h3 {
     margin: 0px;
+    /* style.css */
+    .sidebar-img (
+        width: 300px;
+    )
 }
          /* portfolio styles */
          .content h1 {
