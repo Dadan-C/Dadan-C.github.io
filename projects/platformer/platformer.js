@@ -44,11 +44,11 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-createPlatform(400,452,100px,100px)
-createPlatform(500,500,200px,100px)
-createPlatform(100,100,100px,100px)
-createPlatform(200,200,200px,200px)
-createPlatform(300,300,140px,167px)
+createPlatform(100,610,50,50);
+createPlatform(100,170,50,50);
+createPlatform(250,300,50,50);
+createPlatform(500,400,50,50);
+createPlatform(350,500,50,50);
 
     
     // TODO 2
@@ -68,9 +68,9 @@ createCollectable(diamond,350,350)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-createCannon(right,200,2000, 200px,200px)
-createCannon(left,300,2000,200px,200px)
-createCannon(right,400,2000,200px,200px)
+createCannon(right,200,2000, 200,200)
+createCannon(left,300,2000,200,200)
+createCannon(right,400,2000,200,200)
 
 
     /////////////////////////////////////////////////
