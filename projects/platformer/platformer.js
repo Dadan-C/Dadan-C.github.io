@@ -49,7 +49,10 @@ createPlatform(100,170,50,50);
 createPlatform(250,300,50,50);
 createPlatform(500,400,50,50);
 createPlatform(350,500,50,50);
-
+createPlatform(280,130,200,50);
+createPlatform(850,200,25,1100);
+createPlatform(625,150,50,50);
+createPlatform(920,200,500,50);
     
     // TODO 2
     // Create collectables
@@ -57,9 +60,15 @@ createPlatform(350,500,50,50);
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
-createCollectable(diamond,150,150)
-createCollectable(diamond,250,250)
-createCollectable(diamond,350,350)
+createCollectable("diamond",900,650);
+createCollectable("diamond",950,650);
+createCollectable("diamond",1000,650);
+createCollectable("diamond",1100,650);
+createCollectable("diamond",1050,650);
+createCollectable("diamond",1150,650);
+createCollectable("diamond",1200,650);
+createCollectable("diamond",1250,650);
+createCollectable("diamond",1300,650);
 
 
     // TODO 3
@@ -68,10 +77,11 @@ createCollectable(diamond,350,350)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-createCannon(right,200,2000, 200,200)
-createCannon(left,300,2000,200,200)
-createCannon(right,400,2000,200,200)
-
+    createCannon("right",130,7000, 20,20);
+    createCannon("right",400,3000,20,20);
+    createCannon("right", 600,2500,30,30)
+    createCannon("right", 650,2000,30,30)
+    createCannon("right", 700,3000,30,30)
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
