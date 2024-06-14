@@ -50,10 +50,10 @@ createPlatform(250,300,50,50);
 createPlatform(500,400,50,50);
 createPlatform(350,500,50,50);
 createPlatform(280,130,200,50);
-createPlatform(850,200,25,1100);
+createPlatform(900,200,25,1100);
 createPlatform(625,150,50,50);
-createPlatform(920,200,500,50);
-createPlatform(800,320,20,20)
+createPlatform(970,200,500,50);
+createPlatform(860,320,1,20);
     
     // TODO 2
     // Create collectables
@@ -66,8 +66,8 @@ createCollectable("diamond",1320,650);
 createCollectable("diamond",1360,650);
 createCollectable("diamond",1360,100);
 createCollectable("diamond",100,750);
-createCollectable("database",100,130);
-createCollectable("steve",800,300)
+createCollectable("database",100,100);
+createCollectable("steve",860,290);
 
 
     // TODO 3
@@ -78,9 +78,9 @@ createCollectable("steve",800,300)
 
     createCannon("right",130,7000, 20,20);
     createCannon("right",400,3000,20,20);
-    createCannon("right", 600,2500,30,30)
-    createCannon("right", 650,2000,30,30)
-    createCannon("right", 700,3000,30,30)
+    createCannon("right", 600,2500,30,30);
+    createCannon("right", 650,2000,30,30);
+    createCannon("right", 700,3000,30,30);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
